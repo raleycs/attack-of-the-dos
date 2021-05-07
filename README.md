@@ -5,3 +5,4 @@ Project that determines the effectiveness of popular denial-of-service (DOS) att
 ## Notes
 - The images directory contains all of the VirtualBox machines that were used during the experiment.
 - In order to switch between web servers, use `sudo systemctl stop [CURRENT WEB SERVER]` then switch `sudo systemctl start [OTHER WEB SERVER]`
+- To ensure network isolation, make sure to use "Host-only" adapter for all of the machines
